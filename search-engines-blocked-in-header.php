@@ -4,7 +4,7 @@ Plugin Name: Search Engines Blocked in Header
 Plugin URI: https://wpcorner.co/plugins
 Description: Display the 'Search Engines Discouraged' (or any translation) notification in the WordPress Toolbar if blog_public option has been checked.
 Author: WP Corner
-Version: 0.5.4
+Version: 1.0.0
 Author URI: https://wpcorner.co
 Text Domain: search-engines-blocked-in-header
 Domain Path: /languages/
