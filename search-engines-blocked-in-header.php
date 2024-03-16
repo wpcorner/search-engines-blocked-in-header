@@ -1,13 +1,18 @@
 <?php
 /*
 Plugin Name: Search Engines Blocked in Header
+Plugin URI: https://wpcorner.co/plugins
 Description: Display the 'Search Engines Discouraged' (or any translation) notification in the WordPress Toolbar if blog_public option has been checked.
-Author: Marcel Bootsman
+Author: WP Corner
 Version: 0.5.4
-Author URI: https://marcelbootsman.nl
+Author URI: https://wpcorner.co
 Text Domain: search-engines-blocked-in-header
 Domain Path: /languages/
 */
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
 
 add_action( 'admin_bar_menu', 'nostromo_search_engines_blocked', 1000 );
 function nostromo_search_engines_blocked() {
