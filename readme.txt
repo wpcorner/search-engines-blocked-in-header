@@ -5,7 +5,7 @@ Donate Link: https://wpcorner.co/donate/
 Tags: privacy, blocked, toolbar, seo, search engines blocked
 Requires PHP: 7.0 or later
 Requires at least: 3.2
-Tested up to: 6.5
+Tested up to: 6.6
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
